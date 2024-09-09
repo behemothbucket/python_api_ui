@@ -1,0 +1,4 @@
+include:
+  - project: 'devops/gitlab-ci-common'
+    ref: release
+    file: 'main.yml'
