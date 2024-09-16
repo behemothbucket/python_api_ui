@@ -9,7 +9,7 @@ def wait_until(wait_time=10, period=1):
                 if func(*args, **kwargs):
                     return True
                 time.sleep(period)
-            raise Exception(f'В течение {wait_time} секунд ничего не произошло.')
+            raise Exception(f"В течение {wait_time} секунд ничего не произошло.")
 
         return wrapper
 
